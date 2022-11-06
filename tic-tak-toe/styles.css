@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+}
+
+
+/* Frame containing all the divs */
+
+.frame {
+  margin-left:40%;
+  margin-top: 10%;
+}
+
+/* Each individual block/square */
+.block {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 2px #121212 solid;
+  overflow: hidden;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 1px;
+  color: #30475E;
+}
+
+
+.block:hover {
+  background-color: #F05454;
+}
+
+
+/* Removing div border */
+.lefts {
+  border-left: none;
+}
+
+.rights {
+  border-right: none;
+}
+
+.tops {
+  border-top: none;
+}
+
+.bottoms  {
+  border-bottom: none;
+}
+
+
+/* Highlight the winning combination */
+.won {
+  background-color: #3E8E7E;
+}
+
+/* Disable button after the player has won */
+.disable {
+  pointer-events: none;
+}
+
+
+/* design for reset button */
+.reset {
+  position: absolute;
+  margin-left: 48.5%;
+  margin-top: 5%;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px #F05454;
+}
+
+.reset:hover {
+  background-color: #30475E;
+  color: white;
+}
+
+/* Display text on winning */
+.winner  {
+  font-size: 30px;
+}
